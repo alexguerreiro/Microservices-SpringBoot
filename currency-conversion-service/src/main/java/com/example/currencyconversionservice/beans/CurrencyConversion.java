@@ -70,4 +70,16 @@ public class CurrencyConversion {
     public void setTotalCalculatedAmount(Integer totalCalculatedAmount) {
         this.totalCalculatedAmount = totalCalculatedAmount;
     }
+
+    @Override
+    public String toString() {
+        return "CurrencyConversion{" +
+                "id=" + id +
+                ", from='" + from + '\'' +
+                ", to='" + to + '\'' +
+                ", conversionMultiple=" + conversionMultiple +
+                ", quantity=" + quantity +
+                ", totalCalculatedAmount=" + totalCalculatedAmount +
+                '}';
+    }
 }

@@ -51,4 +51,15 @@ public class ExchangeValue {
     public void setPort(int port) {
         this.port = port;
     }
+
+    @Override
+    public String toString() {
+        return "ExchangeValue{" +
+                "id=" + id +
+                ", from='" + from + '\'' +
+                ", to='" + to + '\'' +
+                ", conversionMultiple=" + conversionMultiple +
+                ", port=" + port +
+                '}';
+    }
 }
